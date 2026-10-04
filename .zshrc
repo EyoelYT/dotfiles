@@ -1,10 +1,12 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+export PATH="$HOME/Probe/doomemacs/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 export PATH="/Users/e.tesfu/.local/bin:$PATH"
 
 alias la="ls -la"
+alias demacs="emacs --init-directory=~/Probe/doomemacs"
 alias minimal="emacs --init-directory=~/Projects/minimal-emacs.d"
 alias minemacs="emacs --init-directory=~/Projects/minemacs"
 
